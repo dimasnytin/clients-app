@@ -22,6 +22,7 @@ export const createClientsHeader = () => {
   input.classList.add('header__input');
   wrapper.classList.add('header__wrapper');
   inner.classList.add('header__inner');
+  input.placeholder = "Введите запрос";
 
   // помещем элементы при помощи append в др элементы для отрисовки в DOM
   header.append('container');
