@@ -1,6 +1,6 @@
 export const createClientsSection = () => {
 
-  // создаем html на страницу
+  // создаем html 
   const section = document.createElement('section');
   const container = document.createElement('div');
   const main = document.createElement('main');
