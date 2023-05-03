@@ -27,11 +27,22 @@ export const createClientsSection = () => {
   tableWrapper.classList.add('clients__wrapper');
   h1.classList.add('clients_heading');
   tbody.classList.add('clients__tbody');
-  sortingDisplay.classList.add('clients__display');
-  section.classList.add('clients');
-  section.classList.add('clients');
-  section.classList.add('clients');
-  section.classList.add('clients');
-  section.classList.add('clients');
-  section.classList.add('clients');
+  sortingDisplay.classList.add('clients__display', 'display__info');
+  sortingDisplayId.classList.add('display-info__item', 'display-info__item--id', 'sort-up');
+  sortingDisplayName.classList.add('display-info__item', 'display-info__item--name', 'sort-down');
+  sortingDisplayCreate.classList.add('display-info__item', 'display-info__item--create', 'sort-up');
+  sortingDisplayEdit.classList.add('display-info__item', 'display-info__item--change', 'sort-up');
+  sortingDisplayContacts.classList.add('display-info__item', 'display-info__item--contacts');
+  sortingDisplayActions.classList.add('display-info__item', 'display-info__item--actions');
+  sortingDisplaySpan.classList.add('display-info__sorting');
+  addUserBtm.classList.add('clients__btn', 'btn-reset');
+  addUserSvgBtm.classList.add('clients__svg');
+  container.classList.add('container');
+  main.classList.add('main');
+  clientsTable.classList.add('clients__table');
+  createSpan.classList.add('create__span');
+  edditSpan.classList.add('change__span');
+
+  // наполняем html контентом
+  h1.textContent = 'Клиенты';
 }
