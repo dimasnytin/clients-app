@@ -1,6 +1,6 @@
 export const createClientsHeader = () => {
 
-  // добвляем элементы html на страницу
+  // создаем html на страницу
   const header = document.createElement('header');
   const logo = document.createElement('a');
   const logoImg = document.createElement('img');
